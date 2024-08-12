@@ -365,4 +365,4 @@ const getUserChannelProfile=asyncHandler(async(req,res)=>{
     )
      })
 
-export {registerUser,loginUser,logOutUser,refreshAccessToken,getCurrentUser,updateAccountDetails,updateUserAvatar,updateUserCoverImage,getUserChannelProfile,getWatchHistory }
+export {registerUser,loginUser,logOutUser,refreshAccessToken,getCurrentUser,changeCurrentPassword, updateAccountDetails,updateUserAvatar,updateUserCoverImage,getUserChannelProfile,getWatchHistory }
